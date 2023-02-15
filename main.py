@@ -14,7 +14,7 @@ x_train, x_test, y_train, y_test = train_test_split(df, y, test_size = 0.2, rand
 
 #print(KNN.neighbor(x_test.iloc[1],x_train,y_train,3)) #Finding neigboors of a selected data
 
-predectidResult=KNN.predectidResult(x_train, x_test, y_train, 3)
+predectidResult=KNN.predectidResult(x_train, x_test, y_train, 3)#The last parameter is the k value
 print(predectidResult)
 """
 #Compare Predectid Result and Result 
